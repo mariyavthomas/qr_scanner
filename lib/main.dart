@@ -1,6 +1,3 @@
-
-// ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -34,7 +31,7 @@ class _MyAppState extends State<MyApp> {
       appBar: AppBar(
         title: const Text("QR Scan"),
         backgroundColor: Colors.black,
-        actions: <Widget>[
+        actions: [
           IconButton(
             icon: isFlashOn ? const Icon(Icons.flash_on) : const Icon(Icons.flash_off),
             onPressed: toggleFlash,
@@ -48,7 +45,7 @@ class _MyAppState extends State<MyApp> {
         ],
       ),
       body: Column(
-        children: <Widget>[
+        children:[
           Expanded(
             flex: 5,
             child: Center(

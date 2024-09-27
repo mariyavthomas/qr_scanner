@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.scannerapp"
-    compileSdkVersion 32
+    compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
